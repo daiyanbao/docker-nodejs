@@ -5,8 +5,8 @@ From ubuntu:14.04
 
 ADD node-v0.12.7.tar.gz /nodejs_source/
 RUN cd /nodejs_source/
-RUN ls
-RUN ./configure
+RUN ls /nodejs_source
+#RUN ./configure
 
 #RUN tar -zxvf node-v0.12.3.tar.gz
 
