@@ -5,7 +5,7 @@ From ubuntu:14.04
 
 ADD node-v0.12.7.tar.gz /nodejs_source/
 RUN cd /nodejs_source/ && \
-    ./configure
+    configure
 
 #make && sudo make install
 
